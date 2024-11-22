@@ -47,6 +47,8 @@ function main(context) {
             context.api.ext.bepinexAddGame({
                 gameId: GAME_ID,
                 autoDownloadBepInEx: true,
+                architecture: 'x64',
+                bepinexVersion: '5.4.23.2',
                 forceGithubDownload: true,
                 unityBuild: 'unitymono',
             });
